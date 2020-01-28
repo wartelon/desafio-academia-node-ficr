@@ -44,7 +44,7 @@ Neste desafio você deverá desenvolver uma api que retorna um currículo dinâm
       "image": "https://imagem-do-perfil",
       "name": "Fulano",
       "surname": "Silva",
-      "Adress": "Rua fulano de tal, 256 - Pe",
+      "Address": "Rua fulano de tal, 256 - Pe",
       "gender": "Masculino",
       "birthday": "12/12/1994",
       "email": "fulano@gmail.com"
@@ -64,6 +64,11 @@ Neste desafio você deverá desenvolver uma api que retorna um currículo dinâm
           "size": 37,
           "name": "academia-php",
           "url": "https://api.github.com/repos/mizamelo/academia-php"
+        },
+        {
+          "size": 23,
+          "name": "academia-php2",
+          "url": "https://api.github.com/repos/mizamelo/academia-php2"
         }
       ]
     }
