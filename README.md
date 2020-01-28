@@ -72,3 +72,8 @@ Neste desafio você deverá desenvolver uma api que retorna um currículo dinâm
 ````
 
   * Devem ser listados os 3 primeiros repositórios ordenados do maior para o menor pelo  campo 'size'
+  
+## Pronto para começar o desafio?
+* Faça um "fork" desse repositório na sua conta do Github
+* Crie uma branch com o seu nome e sobrenome ex: robson-santos
+* Após completar o desafio, crie um "pull request" nesse repositório comparando a sua branch com a master
