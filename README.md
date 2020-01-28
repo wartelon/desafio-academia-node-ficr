@@ -2,7 +2,7 @@
 
 Neste desafio você deverá desenvolver uma api que retorna um currículo dinâmico. Para isso, você deverá comunicar-se com dois serviços para capturar informações. A api do Facebook e a api do Github.
 
-## Especificações mínimas do projeto
+## Especificações do projeto
 
 * Utilizar o [express](https://www.npmjs.com/package/express)
 
@@ -10,23 +10,25 @@ Neste desafio você deverá desenvolver uma api que retorna um currículo dinâm
 
 * O projeto deverá ser publicado no github
 
+* Publicar o projeto no [Heroku](https://www.heroku.com/)
+
 * Caso o usuário acesse uma rota que não foi especificada, deverá ser apresentado para ele uma mensagem de com o status 404
 
-## Especificações desejáveis do projeto
+## Pontos extras
 
-* Publicar o projeto no [Heroku](https://www.heroku.com/) com dockerfile ou github
+* Publicar o projeto no [Heroku](https://www.heroku.com/) utilizando dockerfile
 
 * Criar testes utilizando [Jest](https://www.npmjs.com/package/jest)
 
 * Utilizar ferramentas de qualidade de código: [Eslint](https://www.npmjs.com/package/eslint) e [EditorConfig](https://editorconfig.org/)
 
-* Sinta-se livre para adionar features ao seu gosto. Exemplo: tradução do conteúdo utilizando flags na requisição, como mostrado abaixo.
+* Sinta-se livre para adicionar features ao seu gosto. Exemplo: tradução do conteúdo utilizando flags na requisição, como mostrado abaixo.
 
 ````http
   GET  /api/curriculo?lang=en_us
 ````
 
-## Requisitos obrigatórios
+## Requisitos técnicos
 
 * O projeto deve conter a seguinte rota:
 
