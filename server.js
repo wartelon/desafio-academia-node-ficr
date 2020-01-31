@@ -1,10 +1,17 @@
-const app = require('./app')
 
-const port = 2020;
+/*
+const express = require('express');
+const app = express();
+const routes = require('./routes')
 
-app.listen(port, function(){
-    	console.log(`Servidor Rodando na porta: ${port}`)
-})
+
+app.use('/', routes);
+
+app.listen(3000, () => {
+    console.log('Servidor rodando na porta 3000...')
+});
+
+module.exports = app;
 
 
 

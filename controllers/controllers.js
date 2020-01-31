@@ -10,7 +10,7 @@ async function  main (req, res) {
        const faceservice = await serviceface.get()
        const githubrepos = await servicegithubrepos  
 
-       const { name = login, bio, avatar_url, html_url } = githubservice
+       const { bio, avatar_url, html_url } = githubservice
        const { firt_name, last_name, gender , birthday, email  } = faceservice
 
        const repos = githubrepos.data.map( repo =>{
@@ -44,10 +44,10 @@ async function  main (req, res) {
        }
    }
 
-   return res,json(perfil);
+   return await  res.json(perfil);
 
 } catch (err){
     console.error ("ERRO:", err)
 }
 }
-module.exports = main 
+module.exports = main();
